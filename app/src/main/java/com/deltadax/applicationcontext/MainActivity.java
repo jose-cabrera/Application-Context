@@ -7,6 +7,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
+    Button button;
     //programador 2
     String adios;
     String hola;
@@ -19,5 +20,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        button = (Button) findViewById(R.id.button);
+        button.setText("HOLA");
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Main2Activity.start(getApplicationContext());
+            }
+        });
     }
 }
