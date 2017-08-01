@@ -8,6 +8,12 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     Button button;
+    //programador 2
+    String adios;
+    String hola;
+    String nombre;
+    String nombre2, edad, nombre3, apellido;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
