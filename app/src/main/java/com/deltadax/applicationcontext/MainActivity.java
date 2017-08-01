@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     String nombre;
     String nombre2, edad, nombre3, apellido;
 
+    Button buton2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
